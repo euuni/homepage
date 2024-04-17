@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>체경은홈페이지</title>
+     <link rel="stylesheet" href="style.css" />
+    <style>
+      .container {
+          text-align: center; /* 부모 요소에 대해 가운데 정렬 */
+      }
+
+      form {
+          display: inline-block; /* 가운데 정렬을 위해 인라인 블록 요소로 설정 */
+          text-align: left; /* 폼 내부의 텍스트를 왼쪽으로 정렬 */
+      }
+      table {
+        display: inline-block;
+        text-align: left;
+      }
+  </style>
+  </head>
+  <body>
+            <nav class="navbar">
+                <div class="container">
+                    <div class="logo">홈페이지</div>
+                    <ul class="nav">
+                        <li>
+                            <a href="home.html">Home</a>
+                        </li>
+                        <li>
+                            <a href="secon.html">Secon</a>
+                            </li>
+                        <li>
+                            <a href="programming.html">Programming</a>
+                        </li>
+                        <li>
+                            <a href="demo.html">Demo</a>
+                        </li>
+                    </ul>
+      </div>
+    </nav>
+
+    <!--메인 섹션-->
+    <section class="main">
+      <div class="container">
+<body>
+        <p>현재시간: <span id="time"></span></p>
+        <hr />
+        <p>
+          배경색 바꾸기:
+          <button onclick="pink()">Pink</button>
+          <button onclick="lightblue()">Lightblue</button>
+          <button onclick="yellow()">Yellow</button>
+          <button onclick="reset()">Reset</button>
+        </p>
+        <p>
+          짜잔:
+          <button onmouseover="showbb()" onmouseout="hide()">baseball</button>
+          <button onmouseover="showmv()" onmouseout="hide()">movie</button>
+          <button onmouseover="showms()" onmouseout="hide()">music</button>
+        </p>
+        <hr />
+        <br />
+      </div>
+      <div>
+        <img id="fig" height="200px" />
+        <p id="desc"></p>
+      </div>
+    </section>
+    <script src="main.js"></script>
+  </body>
+  <body>
+       
+    <table border="1">
+      <tr>
+        <th>김태현</th>
+        <th>신명진</th>
+        <th>임혜준</th>
+      </tr>
+      <tr>
+        <th>남</th>
+        <th>남</th>
+        <th >여</th>
+      </tr>
+    </table>
+    <form>
+      이름: <input type="text" name="id"> <br/>
+      번호: <input type="text" name="number" value="1234567890">
+    </form>
+</head>
+  </body>
+  
+</html>
